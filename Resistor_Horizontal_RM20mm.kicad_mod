@@ -16,9 +16,9 @@
   (fp_line (start -8.89 0) (end -7.62 0) (layer F.SilkS) (width 0.381))
   (pad 1 thru_hole circle (at -10 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
   (pad 2 thru_hole circle (at 10 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
-  (model discret/resistor3.wrl
+  (model discret/resistor_20mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.8 0.8 0.8))
+    (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))
   )
 )
