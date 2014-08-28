@@ -15,7 +15,7 @@
   (fp_line (start 18.034 -5.588) (end -18.034 -5.588) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -22.86 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 22.86 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
-  (model discret/resistors/Ceramic_Horizontal_L36mm-W11mm-H10mm-p45mm.wrl
+  (model discret/resistors/ceramic/Ceramic_Horizontal_L36mm-W11mm-H10mm-p45mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 4 4 4))
     (rotate (xyz 0 0 0))
