@@ -1,12 +1,12 @@
-(module Resistor_Horizontal_RM25mm_22Apr2011 (layer F.Cu)
+(module Resistor_Horizontal_RM25mm (layer F.Cu)
   (at 54.0004 85.99932)
   (descr "Resistor, Axial, RM 25mm,")
   (tags "Resistor, Axial, RM 25mm,")
-  (fp_text reference R (at 0 -5.75056) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference Resistor_Horizontal_RM25mm (at 0 -5.75056) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Resistor_Horizontal_RM25mm_22Apr2011 (at 0 6.49986) (layer F.SilkS) hide
-    (effects (font (size 1.50114 1.50114) (thickness 0.20066)))
+  (fp_text value VAL** (at 0 6.49986) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -8.94334 0) (end -10.97534 0) (layer F.SilkS) (width 0.15))
   (fp_line (start 9.34466 0) (end 10.86866 0) (layer F.SilkS) (width 0.15))

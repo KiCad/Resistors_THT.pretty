@@ -1,11 +1,11 @@
-(module Resistor_Horizontal_RM15mm_22Apr2011 (layer F.Cu) (tedit 53F56292)
+(module Resistor_Horizontal_RM15mm (layer F.Cu) (tedit 53F56292)
   (descr "Resistor, Axial, RM 15mm,")
   (tags "Resistor, Axial, RM 15mm,")
-  (fp_text reference R (at 0 -3.74904) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference Resistor_Horizontal_RM15mm (at 0 -3.74904) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Resistor_Horizontal_RM15mm_22Apr2011 (at 0 4.0005) (layer F.SilkS) hide
-    (effects (font (size 1.50114 1.50114) (thickness 0.20066)))
+  (fp_text value VAL** (at 0 4.0005) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -5.08 -1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.08 1.27) (end 5.08 1.27) (layer F.SilkS) (width 0.15))
@@ -15,7 +15,7 @@
   (fp_line (start -6.35 0) (end -5.08 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -7.5 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
   (pad 2 thru_hole circle (at 7.5 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
-  (model discret/resistor_15mm.wrl
+  (model Resistors_ThroughHole/Resistor_Horizontal_RM15mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))
