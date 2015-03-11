@@ -2,10 +2,10 @@
   (at 94.00032 62.99962)
   (descr "Resistor, Vertical, RM 7.5mm,")
   (tags "Resistor, Vertical, RM 7.5mm,")
-  (fp_text reference Resistor_Vertical_RM7.5mm (at 0 -6.35) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 7.50062) (layer F.SilkS) hide
+  (fp_text value Resistor_Vertical_RM7.5mm (at 0 7.50062) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.25222 0) (end 2.15138 0) (layer F.SilkS) (width 0.15))

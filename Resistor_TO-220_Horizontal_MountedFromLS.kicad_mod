@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Resistor, TO-220, Horizontal, Mounted from LS,")
   (tags "Resistor, TO-220, Horizontal, Mounted from LS,")
-  (fp_text reference Resistor_TO-220_Horizontal_MountedFromLS (at 0.254 -9.144) (layer F.SilkS)
+  (fp_text reference REF** (at 0.254 -9.144) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 4.0005) (layer F.SilkS) hide
+  (fp_text value Resistor_TO-220_Horizontal_MountedFromLS (at 0 4.0005) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user "Mounted from LS!" (at 0 -12.7) (layer F.SilkS)
