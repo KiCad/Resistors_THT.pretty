@@ -1,6 +1,6 @@
 (module Resistor_Horizontal_RM30mm (layer F.Cu) (tedit 56648AAE)
   (descr "Resistor, Axial, RM 30mm,")
-  (tags "Resistor, Axial, RM 30mm,")
+  (tags "Resistor Axial RM 30mm")
   (fp_text reference REF** (at 15 -6.49986) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
