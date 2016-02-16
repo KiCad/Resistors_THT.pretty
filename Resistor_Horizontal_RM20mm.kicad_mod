@@ -21,8 +21,8 @@
   (pad 1 thru_hole circle (at 0 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
   (pad 2 thru_hole circle (at 20 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
   (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM20mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.4 0.4 0.4))
+    (at (xyz 0.395 0 0))
+    (scale (xyz 0.395 0.4 0.4))
     (rotate (xyz 0 0 0))
   )
 )
