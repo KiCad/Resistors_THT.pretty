@@ -20,11 +20,7 @@ def roundG(x, g):
 def roundCrt(x):
     return roundG(x, 0.05)
 
-
-
-if __name__ == '__main__':
-    for pins in range(5, 11):
-        print(pins)
+def makeSIP(pins, footprint_name, description):
         rm=2.54
         h=0.5
         leftw=1.29
@@ -52,14 +48,13 @@ if __name__ == '__main__':
         t_crt=min(t_slk, -pady/2)-crt_offset
         
         
-        footprint_name = "Resistor_Array_SIP%d" % (pins-1)
         lib_name = "Resistors_ThroughHole"
 
         print(footprint_name)
 
         # init kicad footprint
         kicad_mod = Footprint(footprint_name)
-        kicad_mod.setDescription("{0}-pin Resistor SIP pack, {1} resistors".format(pins, pins-1))
+        kicad_mod.setDescription(description)
         kicad_mod.setTags("R")
 
         # set general values
@@ -93,3 +88,15 @@ if __name__ == '__main__':
         # write file
         file_handler = KicadFileHandler(kicad_mod)
         file_handler.writeFile(footprint_name+'.kicad_mod')
+
+
+if __name__ == '__main__':
+    for R in range(4, 10):
+        pins=R+1
+        makeSIP(pins, "Resistor_Array_SIP%d" % (R), "{0}-pin Resistor SIP pack, {1} resistors".format(pins, R))
+    for R in range(3,6):
+        pins=2*R
+        makeSIP(pins, "Resistor_ArrayParallel_SIP%d" % (R), "{0}-pin Resistor SIP pack, {1} parallel resistors".format(pins, R))
+    for R in range(3,6):
+        pins=R+2
+        makeSIP(pins, "Resistor_ArrayDivider_SIP%d" % (R), "{0}-pin Resistor SIP pack, {1} voltage dividers = {2} resistors".format(pins, R, 2*R))
