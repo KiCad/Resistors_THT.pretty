@@ -79,7 +79,7 @@ def makeSIP(pins, footprint_name, description):
 
         # add model
         kicad_mod.append(Model(filename=lib_name + ".3dshapes/"+footprint_name+".wrl",
-                               at=[0, 0, 0], scale=[1, 1, 1], rotate=[0, 0, 0]))
+                               at=[0, 0, 0], scale=[1/2.54,1/2.54,1/2.54], rotate=[0, 0, 0]))
 
         # print render tree
         # print(kicad_mod.getRenderTree())

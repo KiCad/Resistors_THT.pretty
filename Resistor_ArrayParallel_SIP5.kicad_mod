@@ -1,4 +1,4 @@
-(module Resistor_ArrayParallel_SIP5 (layer F.Cu) (tedit 57F1523F)
+(module Resistor_ArrayParallel_SIP5 (layer F.Cu) (tedit 57F15C69)
   (descr "10-pin Resistor SIP pack, 5 parallel resistors")
   (tags "R")
   (fp_text reference REF** (at 12.7 -1.85) (layer F.SilkS)
@@ -33,7 +33,7 @@
   (pad 10 thru_hole oval (at 22.86 0) (size 1.2 1.4) (drill 0.8) (layers *.Cu *.Mask))
   (model Resistors_ThroughHole.3dshapes/Resistor_ArrayParallel_SIP5.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))
   )
 )
