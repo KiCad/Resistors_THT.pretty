@@ -1,5 +1,5 @@
-(module Resistor_Array_SIP6 (layer F.Cu) (tedit 57F69CFD)
-  (descr "6-pin Resistor SIP pack, 5 resistors")
+(module Resistor_Array_SIP6 (layer F.Cu) (tedit 57F6A5FC)
+  (descr "6-pin Resistor SIP pack")
   (tags "R")
   (fp_text reference REF** (at 7.62 -1.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
