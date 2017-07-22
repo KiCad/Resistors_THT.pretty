@@ -27,7 +27,7 @@
   (pad 2 thru_hole oval (at 7.93 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 42.87 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 50.8 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
-  (model Resistors_THT.3dshapes/R_Axial_Shunt_L47.6mm_W9.5mm_PS34.93mm_P50.80mm.wrl
+  (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Axial_Shunt_L47.6mm_W9.5mm_PS34.93mm_P50.80mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 0))
